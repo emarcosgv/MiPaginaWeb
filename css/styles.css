@@ -1,12 +1,15 @@
 body {
     background-color: orange;
     color: blue;
+    font-family: Tahoma;
 }
 .introduccion {
     background-color: blue;
 }
 .descripcion {
     color: red;
+    font-size: 1.5rem;
+
 }
 #pepito {
     color: whitesmoke;
@@ -14,6 +17,7 @@ body {
 a:link {
     background-color: green;
     color: salmon;
+    text-decoration: underline;
 }
 a:visited {
     background-color: black;
@@ -30,7 +34,11 @@ h2 {
 
 p {
     color: white;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     font-style: italic;
+    line-height: 1.6rem;
+    font-weight: bold;/* normal */
+    text-align: center;
+    
 }
